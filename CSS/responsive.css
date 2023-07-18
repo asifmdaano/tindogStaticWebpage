@@ -1,0 +1,31 @@
+/* Tablet Mode  */
+@media (max-width:1030px) and (min-width:800px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        position: relative;
+        left: 40%;
+    }
+    .download-btn {
+        width: 100% !important;
+    }
+}
+
+/* Mobile Mode  */
+@media (max-width:799px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        margin-left: 20%;
+    }
+    .btn-center {
+        text-align: center;
+    }
+
+    .big-heading{
+        text-align: center;
+    }
+}
